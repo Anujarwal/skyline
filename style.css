@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    /* border:1px solid red; */
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    padding-inline:100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav h3{
+    font-weight: 600;
+}
+
+.nav ul{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav ul li{
+    list-style: none;
+}
+
+.nav button{
+    width: 110px;
+    height: 40px;
+    background-color: white;
+    font-weight: 600;
+}
+
+.nav button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.setting{
+    display: none;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.center{
+    width:700px;
+    height:auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+
+.container img{
+    width:200px;
+    height:400px;
+   
+}
+
+.center button{
+    width: 150px;
+    height: 40px;
+}
+
+.center h1{
+    font-size:80px;
+    text-align: center;
+}
+
+.center p{
+    font-size: 20px;
+    padding-block:20px;
+    text-align: center;
+}
+
+.center span{
+    width:350px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:20px;
+    
+}
+
+#Discover{
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#Demo{
+    margin-left: 60px;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#Demo:hover{
+    background-color: black;
+    color: white;
+    
+}
+
+.last-img{
+    width: 100%;}
+  
+
+.last-img img{
+    width: 100%;
+}
+
+
+
+@media (max-width: 480px) {
+    .navbar{
+        width: 100%;
+        height: 80px;
+        padding-inline: 10px;
+    }
+    .nav{
+        width: 100%;
+    }
+    .nav h3{
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .nav ul li{
+        display: none;
+    }
+
+    .nav button{
+        display: none;
+    }
+
+    .setting{
+        display: inline;
+    }
+
+    .setting i{
+        font-size: 30px;
+    }
+
+    .container{
+        width: 100%;
+        height: auto;
+    }
+
+    .center{
+        width: 100%;
+        height: 200px;
+       
+    }
+
+    .container img{
+       display:none;
+    }
+
+    .center button{
+        width: 120px;
+        height: 30px;
+        margin-inline: 25px;
+    }
+
+    #Demo:hover{
+        background-color: black;
+        color: white;
+    }
+
+    .center h1{
+        font-size: 45px;
+        margin: 0px;
+    }
+    .center p{
+        font-size: 15px;
+    }
+
+    .last-img{
+        width: 100%;
+        margin-left:0px;
+        margin-top:0px;
+    }
+
+    .last-img img{
+        width: 100%;
+    }
+
+    .last-img{
+        width: 100%;
+        margin: 0px;
+    }
+    
+    
+}
+
+@media (max-width: 768px) {
+    .navbar{
+        width: 100%;
+        height: 10vh;
+        padding-inline: 50px;
+    }
+    .nav{
+        width: 100%;
+    }
+    .nav h3{
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .nav ul li{
+        display: none;
+    }
+
+    .nav button{
+        display: none;
+    }
+
+    .setting{
+        display: inline;
+    }
+
+    .setting i{
+        font-size: 30px;
+    }
+
+    .container{
+        width: 100%;
+        height: auto;
+    }
+
+    .center{
+        width: 500px;
+        height: 200px;
+        margin-top: 150px;
+    }
+
+    .container img{
+        width: 250px;
+        height: 250px;
+        margin-top: -100px;
+    }
+
+    .center button{
+        width: 120px;
+        height: 30px;
+        margin-inline: 25px;
+    }
+
+    #Demo:hover{
+        background-color: black;
+        color: white;
+    }
+
+    .center h1{
+        font-size: 45px;
+        margin-top: -150px;
+    }
+    .center p{
+        font-size: 15px;
+    }
+
+    .last-img img{
+        width: 100%;
+    }
+
+    .last-img{
+        width: 100%;
+    }
+    
+    
+}
